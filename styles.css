@@ -1,0 +1,71 @@
+
+/* Add font files for Arial */
+@font-face {
+  font-family: 'Arial';
+  src: url('fonts/arial.woff2') format('woff2'),
+       url('fonts/arial.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-arial: 'Arial', sans-serif;
+  --www.tripadvisor.ru/Alto: rgba(224, 224, 224, 1);
+  --www.tripadvisor.ru/Alto 80%: rgba(214, 214, 214, 0.8);
+  --www.tripadvisor.ru/Black: rgba(0, 0, 0, 1);
+  --www.tripadvisor.ru/Black 40%: rgba(0, 0, 0, 0.4);
+  --www.tripadvisor.ru/Boulder: rgba(118, 118, 118, 1);
+  --www.tripadvisor.ru/Boulder: rgba(118, 118, 118, 1);
+  --www.tripadvisor.ru/Concrete: rgba(242, 242, 242, 1);
+  --www.tripadvisor.ru/Jade: rgba(0, 165, 104, 1);
+  --www.tripadvisor.ru/Mine Shaft: rgba(51, 51, 51, 1);
+  --www.tripadvisor.ru/Turquoise: rgba(52, 224, 161, 1);
+  --www.tripadvisor.ru/White: rgba(255, 255, 255, 1);
+  --www.tripadvisor.ru/White White: rgba(255, 255, 255, 1);
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.group-13-1-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.-1 {
+@media (max-width: 1440px) {
+  .-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
